@@ -442,7 +442,7 @@ function parseBuffer(buffer, opt) {
     }
 
     if (vheaTableEntry && vmtxTableEntry) {
-        font.hasVerticalMatrics = true;
+        font.hasVerticalMetrics = true;
     }
 
     return font;
